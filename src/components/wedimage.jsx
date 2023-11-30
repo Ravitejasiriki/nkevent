@@ -1,0 +1,58 @@
+import React from 'react'
+import './wedding.css'
+import image1 from '../assests/Wedding/image2.jpg'
+import image2 from '../assests/Wedding/image3.jpg'
+import image3 from '../assests/Wedding/image6.jpg'
+import image4 from '../assests/Wedding/image8.jpg'
+import image5 from '../assests/Wedding/image17.jpg'
+import image6 from '../assests/Wedding/image18.jpg'
+import image7 from '../assests/Wedding/image19.jpg'
+import image8 from '../assests/Wedding/image20.jpg'
+
+const Wedimage = () => {
+  return (
+    <div>
+        <div className="image-category">
+      <img
+        src={image1}
+        alt="Category - Small"
+        className="category-image small"
+      />
+      <img
+        src={image2}
+        alt="Category - Medium"
+        className="category-image medium"
+      />
+        </div>
+    
+          <div><img
+        src={image3}
+        alt="Category - Large"
+        className="category-image large"
+      /></div>
+          
+        <div className="image-category">
+      <img
+        src={image4}
+        alt="Category - Medium"
+        className="category-image medium"
+      />
+      <img
+        src={image5}
+        alt="Category - Medium"
+        className="category-image medium"
+      />
+        
+      
+    </div>
+    <div><img
+        src={image6}
+        alt="Category - Large"
+        className="category-image large"
+      /></div>
+    
+        </div>
+  )
+}
+
+export default Wedimage

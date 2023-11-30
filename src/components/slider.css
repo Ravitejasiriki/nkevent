@@ -1,0 +1,30 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.4rem auto;
+    max-width: 740px;
+    max-height: 50%;
+    transition-duration: 0.5ms;
+  }
+  
+  .slider-button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .slider {
+    max-width: 80%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* You can add more custom styles here as needed */
+  

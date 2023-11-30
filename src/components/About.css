@@ -1,0 +1,18 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+}
+.about .left{
+    text-align: start;
+    padding: 1rem;
+}
+.about .left p{
+    margin: 1.2rem 0;
+    text-align: start;
+}
+.btn{
+    max-width: 250px;
+}
